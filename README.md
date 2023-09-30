@@ -6,7 +6,7 @@ Spend some time reviewing the locked code in your editor, and complete the body 
 
 Check Dynamic cast to get an idea of how to solve this challenge.
 
-Input Format
+Input Format:
 
 The wizard will read  scrolls, which are hidden from you.
 Every time he casts a spell, it's passed as an argument to your counterspell function.
@@ -15,7 +15,9 @@ Constraints
 
 , where  is a scroll name.
 Each scroll name, , consists of uppercase and lowercase letters.
-Output Format
+
+
+Output Format:
 
 After identifying the given spell, print its name and power.
 If it is a generic spell, find a subsequence of letters that are contained in both the spell name and your spell journal. Among all such subsequences, find and print the length of the longest one on a new line.
